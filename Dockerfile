@@ -5,6 +5,6 @@ RUN set -ex \
 
 USER node
 
-VOLUME ["/home/node/.config"]
+VOLUME ["/home/node"]
 
 ENTRYPOINT ["clasp"]
