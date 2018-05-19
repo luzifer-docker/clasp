@@ -1,7 +1,7 @@
 FROM node:10
 
 RUN set -ex \
- && npm install -g @google/clasp
+ && yarn global add @google/clasp
 
 USER node
 
